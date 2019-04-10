@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+    <bean id="apache180" class="beans.Bike">
+        <property name="make" value="TVS"/>
+        <property name="model" value="RTR 180"/>
+        <property name="year" value="2018"/>
+        <property name="cc" value="180"/>
+    </bean>
+
+    <bean name="pulsar180;pulsar" class="beans.Bike">
+        <property name="make" value="Bajaj"/>
+        <property name="model" value="Pulsar 180"/>
+        <property name="year" value="2018"/>
+        <property name="cc" value="179"/>
+    </bean>
+
+    <bean id="duke350" name="duke;lean350" class="beans.Bike">
+        <property name="make" value="KTM"/>
+        <property name="model" value="Duke 350"/>
+        <property name="year" value="2019"/>
+        <property name="cc" value="349"/>
+    </bean>
+</beans>
